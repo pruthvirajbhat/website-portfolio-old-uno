@@ -1,9 +1,9 @@
 title: Parchment
-author: pro-panda
-subtitle: The life of a frustrated engineer
+author: pruthvi raj
+subtitle: pursuing infosec
 
-url: "https://rahul-bothra.github.io"
-baseurl: "/parchment"
+url: "https://pruthvirajbhat.github.io"
+
 
 footer_only_homepage: true
 footer_url: "https://github.com/rahul-bothra"
@@ -21,4 +21,4 @@ navbar:
  - name: "About"
    link: "about"
  - name: "Resume"
-   absolute-link: "https://rahul-bothra.github.io/CV.pdf"
+   absolute-link: "https://pruthvirajbhat.github.io/Diya-Gupta.pdf"
