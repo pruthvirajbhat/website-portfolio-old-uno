@@ -32,5 +32,4 @@ Two roads diverged in a wood, and I—\
 I took the one less traveled by,\
 And that has made all the difference.
 
-update: the css file sucks
-doesn't change color for font and chnages for the background
+update: the css file sucks doesn't change color for font and chnages for the background
