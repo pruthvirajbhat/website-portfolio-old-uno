@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Road Not Taken or too much?
-subtitle: This post explains how you can write posts using Markdown and check by real time hosting
+subtitle: best poem ever written using Markdown and checked using real time hosting
 tags: [poem, markdown]
 ---
 
