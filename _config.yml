@@ -1,4 +1,4 @@
-title: Parchment
+title: website-title
 author: pruthvi raj
 subtitle: pursuing infosec
 
@@ -20,5 +20,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "Resume"
+ - name: "<a href="username.github.io/folder/document.pdf" target="_blank">Resume</a>"
    absolute-link: "https://pruthvirajbhat.github.io/Diya-Gupta.pdf"
