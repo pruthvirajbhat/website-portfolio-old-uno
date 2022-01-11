@@ -20,5 +20,5 @@ sass:
 navbar:
  - name: "About"
    link: "about"
- - name: "<a href="username.github.io/folder/document.pdf" target="_blank">Resume</a>"
-   absolute-link: "https://pruthvirajbhat.github.io/Diya-Gupta.pdf"
+ - name: "Resume"
+   absolute-link: "https://raw.githubusercontent.com/pruthvirajbhat/pruthvirajbhat.github.io/master/Diya-Gupta.pdf"
