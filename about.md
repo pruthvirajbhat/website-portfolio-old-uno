@@ -1,25 +1,22 @@
 ---
 layout: default
-title: About Me
+title: whoami
 ---
 
 <img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
 
-I'm Dilbert. I've been working as a Software Engineer for over 30 years. I like to innovate to solve challenging problems using technology. I work with a great Engineering team, but we have a good-for-nothing and clueless manager, who can be replaced with a monkey and the change would be for the better.
+I'm Pruthvi. I've been working as a Software Engineer for over 12 months. I like to innovate to solve challenging problems using technology. I have Imposter Syndrome and have observed nearly most of all ADHD symptoms (without the doctor's word as of now). 
 
-On a personal front, I live with two amazing pets - Dogbert and Ratbert, and three dinasours - Bob, Rex and Dawn - who're hiding from the rest of the world. I'm single and have few friends due to my poor social skills, but I usually spend my time playing with computers and technology.
+I like to think about a problem like a puzzle and keep working on it. I love making extensive research and gain more knowledge while working on things everyday. That's when I found out about Cybersecurity, under Lockdown early 2021. The depth of all job roles seen in this domain match all the things I would love to be working as.
 
-### Life Advice
-Here are a few things I've learned over the years,
-> An optimist is simply a pessimist with no job experience.
+Since then, I have worked on getting those skills checked in.
 
-> All of your co-workers are fools. You must learn to pity and tolerate them.
+I love speaking different languages. I can speak English, Kannada and Hindi, learnt Sanskrit in School. I can understand Telugu and Tamil (to an extent). Would love to learn Spanish and Chinese.
 
-> There are very few problems that can't be solved through a suitable application of high explosives.
+I have develeoped a recent interest in Music while in Lockdown and am learning how different instruments work.
 
-### Publications
-1. Dilbert, Ratbert: "Effects of having a dog and a dinasaur in the same house", _Journal of Wierd Studies_
-2. Alice, Dilbert, Wally: "Efficient ways to deal with a dumb manager", _Conference of Frustrated Engineers_
+I love studying History, Geography, current affairs, DIY hacks and all the small things in life.
 
+I'll let you know when I find out more about myself.
 ### Contact Me
-No thanks, I have enough problems of my own to deal with.
+Here's my mailID: pruthviraj1398@gmail.com
