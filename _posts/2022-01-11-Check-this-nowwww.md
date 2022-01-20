@@ -33,3 +33,24 @@ I took the one less traveled by,\
 And that has made all the difference.
 
 update: the css file sucks doesn't change color for font and chnages for the background
+
+# Image Inputting & with changes
+There are 2 ways to put data out in md
+## Normal Markdown
+
+**Normalo**
+![](https://st4.depositphotos.com/11498520/28904/v/1600/depositphotos_289048016-stock-illustration-cat-vector-kitten-calico-icon.jpg)
+
+*Normalo with changes*
+
+![](https://st4.depositphotos.com/11498520/28904/v/1600/depositphotos_289048016-stock-illustration-cat-vector-kitten-calico-icon.jpg){:height="250px" width="300px"}
+
+## Image Inputting with HTML code
+
+HTML without changes
+<img src="https://st4.depositphotos.com/11498520/28904/v/1600/depositphotos_289048016-stock-illustration-cat-vector-kitten-calico-icon.jpg">
+
+HTML with changes
+<img src="https://st4.depositphotos.com/11498520/28904/v/1600/depositphotos_289048016-stock-illustration-cat-vector-kitten-calico-icon.jpg" width="650" height="370">
+
+see the writeup/code format to understand
