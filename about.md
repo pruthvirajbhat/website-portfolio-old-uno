@@ -15,8 +15,6 @@ Enter tagline: **pursuing infosec with a daily exploration strategy**
 
 I love speaking different languages. I can speak English, Kannada and Hindi, learnt Sanskrit in School. I can understand Telugu and Tamil (to an extent). Would love to learn Spanish and Chinese.
 
-I have develeoped a recent interest in Music while in Lockdown and am learning how different instruments work.
-
 I love studying History, Geography, current affairs, DIY hacks and all the small things in life.
 
 I'll let you know when I find out more about myself.
