@@ -54,3 +54,5 @@ HTML with changes
 <img src="https://st4.depositphotos.com/11498520/28904/v/1600/depositphotos_289048016-stock-illustration-cat-vector-kitten-calico-icon.jpg" width="650" height="370">
 
 see the writeup/code format to understand
+
+update for the feb 2022 month: token update check
