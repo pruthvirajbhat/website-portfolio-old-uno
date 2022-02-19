@@ -22,3 +22,5 @@ navbar:
    link: "about"
  - name: "Resume"
    absolute-link: "https://raw.githubusercontent.com/pruthvirajbhat/pruthvirajbhat.github.io/master/Diya-Gupta.pdf"
+ - name: "Projects"
+   link: "projects"
