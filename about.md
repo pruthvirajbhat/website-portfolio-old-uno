@@ -19,4 +19,4 @@ I love studying History, Geography, current affairs, DIY hacks and all the small
 
 I'll let you know when I find out more about myself.
 ### Contact Me
-Here's my mailID: pruthviraj1398@gmail.com
+pruthviraj1398@gmail.com
