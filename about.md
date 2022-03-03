@@ -8,6 +8,10 @@ subtitle: pursuing infosec with a daily exploration strategy
 
 My name is Pruthvi Raj. I've been working as a Software Engineer since Feb 2021. And I have been simultaneously learning and working on my skills for getting into Cybersecuirty domain.
 
+#### exploring/working on
+network analysis, reverse engineering and malware anlysis and exploit development
+
+#### modus operandi
 <!-- I love speaking different languages. I can speak English, Kannada and Hindi, learnt Sanskrit in School. I can understand Telugu and Tamil (to an extent). 
 I love studying History, Geography, current affairs, DIY hacks and all the small things in life. -->
 
