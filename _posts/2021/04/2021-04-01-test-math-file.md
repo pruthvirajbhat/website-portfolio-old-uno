@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "Math Test"
-subtitle: "Let's see if this works"
+title: "IMG + Math Test"
+subtitle: "ASCII Image + MathJax Lib check"
 tags: [test]
 ---
 
+## ASCII Image for reference
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ASCII-Table-wide.svg">
+
+
+## MathJax Lib Check
 $$
 R_{\mu \nu} - {1 \over 2}g_{\mu \nu}\,R + g_{\mu \nu} \Lambda
 = {8 \pi G \over c^4} T_{\mu \nu}
