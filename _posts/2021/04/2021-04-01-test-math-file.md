@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Math Testee"
+title: "Math Testewe"
 subtitle: "Let's see if this works"
 tags: [test]
 ---
