@@ -1,13 +1,6 @@
 <head>
-    {% if page.title %}
-        {% assign title = page.title | append: " - " | append: site.title %}
-        {% assign desc = page.subtitle %}
-    {% else %}
-        {% assign title = site.title %}
-        {% assign desc = site.subtitle %}
-    {% endif %}
-    {% assign sitedir = site.url | append: site.baseurl | append: "/" %}
-    {% assign favicon_location = sitedir | append: site.favicon_location %}
+    {% if page.title %} {% assign title = page.title | append: " - " | append: site.title %} {% assign desc = page.subtitle %} {% else %} {% assign title = site.title %} {% assign desc = site.subtitle %} {% endif %} {% assign sitedir = site.url | append:
+    site.baseurl | append: "/" %} {% assign favicon_location = sitedir | append: site.favicon_location %}
 
     <title>{{ title }}</title>
 
@@ -32,4 +25,5 @@
     <meta name="twitter:title" content="{{ title }}" />
     <meta name="twitter:description" content="{{ desc }}" />
     <meta name="twitter:image" content="{{ favicon_location }}" />
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </head>
