@@ -24,3 +24,5 @@ navbar:
    absolute-link: "https://raw.githubusercontent.com/pruthvirajbhat/pruthvirajbhat.github.io/master/Diya-Gupta.pdf"
  - name: "Projects"
    link: "projects"
+
+markdown: kramdown
