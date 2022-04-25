@@ -2,7 +2,7 @@
 layout: post
 title: "IMG + Math Test"
 subtitle: "ASCII Image + MathJax Lib check"
-tags: [test]
+tags: [misc]
 ---
 
 ## ASCII Image for reference
