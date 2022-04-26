@@ -47,4 +47,4 @@ Level 27 is cloning a repo using _git_ command and checking out the file gives t
 Level 32 challenge can be solved by changing the shell environment variable, to access bash as default shell.
 
 ## Inference
-Most of the basic commands used IRL are covered and explored in this challenge. It's great for a beginner to get used to linux CLI and further encourages to move on in a gamified manner with the progression of the activity.  
+Most of the basic commands used IRL are covered and explored in this challenge. It's great for a beginner to get used to linux CLI and further encourages to move on in a gamified manner with the progression of the activity.
