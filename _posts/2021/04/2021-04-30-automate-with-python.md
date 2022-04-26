@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Automate the boring stuff with Python
-subtitle: A textbook/course **to automate tasks**, learn programming 
+title: Automate w/Python
+subtitle: Textbook/Course to automate simple tasks
 tags: [python]
 ---
 
