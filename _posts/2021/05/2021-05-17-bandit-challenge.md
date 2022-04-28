@@ -7,7 +7,6 @@ odate: 29-03-2022
 fdate: 24-04-2022
 pdate: 27-04-2022
 ---
-# Bandit Challenge
 ```
 Challenge Level: Easy
 ```
