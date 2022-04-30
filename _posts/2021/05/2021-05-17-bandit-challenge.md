@@ -13,8 +13,8 @@ Challenge Level: Easy
 Bandit challenge from OverTheWire introduces what a simple challenge is to a beginner. It's about Linux, and prepares how to be effective with it. The goal is simple: there's Instruction in every level, follow through to get the flag viz the passowrd for the next level. Each level has instruction on particular subject. Complexity of instructions increases with level.
 
 This write-up is focused on *what*s rather than the *how*s. The challenge is seen more like a stepping stone to understanding how linux commands are used in action. The contents can be seen as:
-1. [Write-up](#Write-up) #
-2. [Inference](#Inference)
+1. [Write-up](#write-up)
+2. [Inference](#inference)
 
 ## Write-up
 Using ssh, machine is accessed at the start - Level 0. At the beginning, basic file management and file manipulation commands are used. Commands include _ls_, _pwd_, _cat_, _cd_ and _find_ is used. I took more time with find command and it's options.
