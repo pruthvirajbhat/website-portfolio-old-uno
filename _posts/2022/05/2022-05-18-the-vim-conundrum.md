@@ -1,6 +1,6 @@
 ---
 layout: post
-title: the vim problem
+title: the vim conundrum
 subtitle: learning how2use vi 
 tags: [learning]
 odate: 18-05-2022
