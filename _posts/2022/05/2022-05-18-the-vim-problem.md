@@ -2,13 +2,13 @@
 layout: post
 title: the vim problem
 subtitle: learning how2use vi 
-tags: [linux]
+tags: [learning]
 odate: 18-05-2022
 fdate: 18-05-2022
 pdate: 18-05-2022
 ---
 # forcing myself to learn vim
-May 18 2022, 2:00AM midnight
+May 18 2022, 2:00AM midnight\
 started May 17 2022, 10:30PM night
 
 well everywhere I turned online, everyone kept saying that vim is cool, powerful, etc
@@ -21,4 +21,4 @@ Then I got around to the tutorial of freecodecamp on youtube, just some 1 hour. 
 Damn. Vim is super powerful. Just by properly using it, I can easily eliminate the dual use of mouse and keyboard. I hated to always double quote, put brackets twice and some regular things to be done repeatedly using mouse and keyboard. I always love to sticking to just keyboard and this gave me **the** chance. 
 
 Consistent practice will get those bindings inside my head. And vim as a skill in my kitty. 
-Need a purpose to get myself to learn some coding projects or scripting stuff. If so, vim is in! Mostly there's no reason for me to code/anything_else and I end up losing that skill with laziness, passing time and inconsistency. Hopefully not now
+Need a purpose to get myself to learn some coding projects or scripting stuff. If so, vim is in! Mostly there's no reason for me to code/anything_else and I end up losing that skill with laziness, passing time and inconsistency. Hopefully this doesn't repeat now.
