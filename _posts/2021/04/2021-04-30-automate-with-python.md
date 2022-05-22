@@ -41,4 +41,4 @@ Without wasting anything it moves to Part 2: Automation. Each functionality list
 ### 7. image manipulation
 ### 8. controlling keyboard and mouse w/ GUI automation
 
-and so it comes to an end! at leat once
+and so it comes to an end! at least once
