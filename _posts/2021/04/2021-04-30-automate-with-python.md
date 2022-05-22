@@ -3,6 +3,9 @@ layout: post
 title: Automate w/Python
 subtitle: Textbook/Course to automate simple tasks
 tags: [python]
+odate: 27-04-2022
+fdate:
+pdate:
 ---
 
 This course is long and lenghty/extensive. A lot of ground is covered and some concepts are best learnt when situations arise when that concept needs to be implemented. Nonetheless, it's best to be through.
@@ -12,7 +15,7 @@ Without wasting anything it moves to Part 2: Automation. Each functionality list
 
 
 1. __pattern matching w/ regex__, \
-    newly minted lib
+    library for regex include
 2. reading, writing and organising Files, 
 3. web scraping, 
 4. working with 

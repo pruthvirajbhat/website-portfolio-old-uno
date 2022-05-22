@@ -1,9 +1,10 @@
 ---
 layout: post
-title: numerous linux challenges
-subtitle: tryhackme, other exercises 
+title: few THM linux challenges
+subtitle: tryhackme, other exercises
 tags: [linux, THM]
 odate: 27-04-2022
+fdate:
 pdate:
 ---
 ```

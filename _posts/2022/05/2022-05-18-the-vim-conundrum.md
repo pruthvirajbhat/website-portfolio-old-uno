@@ -2,13 +2,13 @@
 layout: post
 title: the vim conundrum
 subtitle: learning how2use vi 
-tags: [learning]
+tags: [vim]
 odate: 18-05-2022
 fdate: 18-05-2022
 pdate: 18-05-2022
 ---
 # forcing myself to learn vim
-well everywhere I turned online, everyone kept saying that vim is cool, powerful, etc
+well everywhere I turned online, everyone kept saying that vim is cool, powerful, 1337 etc
 
 and I felt I didn't want to learn it.
 At first it was terminal-ish and I hated it in college where once had great problems while quitting the damn window! And since then I had a hatred to it, and opted out for the cooler *nano* editor, which was great in it's own way
