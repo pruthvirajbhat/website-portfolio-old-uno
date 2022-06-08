@@ -10,7 +10,7 @@ pdate: 01-06-2022
 
 This course is long and lenghty/extensive. A lot of ground is covered and some concepts are best learnt when situations arise when that concept needs to be implemented. Nonetheless, it's best to be through.
 
-The book is beginner friendly. It leads with Part 1: Basics, covering different data types of python, %%(terms and keywords used while working in python)%% functions and methods.
+The book is beginner friendly. It leads with Part 1: Basics, covering different data types of python, <!--(terms and keywords used while working in python)--> functions and methods.
 Without wasting anything it moves to Part 2: Automation. Each functionality listed uses a module or function in the python built-in library to be called and used 
 
 
