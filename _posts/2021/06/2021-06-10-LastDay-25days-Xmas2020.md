@@ -8,7 +8,7 @@ fdate: 19-05-2022
 pdate: 19-052022
 ---
 
-FInal Room, the final challenge
+Final Room, the final challenge
 
 Day 24 `Final Challenge`
 Materials: client side filters, shell upgrade and stabilize, mysql client, priv esc w/ lxd
