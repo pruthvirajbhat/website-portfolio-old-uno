@@ -2,7 +2,7 @@
 layout: post
 title: Day 24 - Last Day 
 subtitle: Final Challenge
-tags: [THM, 25DaysXmas2020]
+tags: [THM/25DaysXmas2020]
 odate: 19-05-2022
 fdate: 19-05-2022
 pdate: 19-052022
