@@ -5,8 +5,8 @@
 
 $accent: #FF0F00;
 
-$max-width: 740px;
-$med-width: 600px;
+$max-width: 840px;
+$med-width: 800px;
 $small-width: 480px;
 
 // Basic
@@ -16,6 +16,7 @@ body {
     font-family: "Inconsolata";
     background-color: #FFFFDD;
     min-height: 100%;
+	font-size: 18px;
 }
 a {
     text-decoration: none;
@@ -83,7 +84,7 @@ code {
         @extend .pull-right;
         text-align: right;
         margin-left: 20px;
-        font-size: 15px;
+        font-size: 18px;
     }
     .subtitle{
         max-width: 500px;
@@ -100,7 +101,7 @@ code {
 
 .page-title{
     text-align: center;
-    font-size: xx-large;
+    font-size: 28px;
     font-weight: bold;
     line-height: 2;
 }
@@ -123,7 +124,7 @@ code {
 
 // Mobile
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .container {
         max-width: $med-width;
         transition: 0.3s ease all;

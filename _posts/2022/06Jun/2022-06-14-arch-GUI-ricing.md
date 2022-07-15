@@ -14,6 +14,7 @@ I have been a simple windows user. some reasons I wanted to do use linux:
 2. having more control of the system. What to install, use and run.
 
 ![](../../../assets/oscontrol.jpg)
+
 Memes give a really accurate idea and this one cleared up real good.
 
 
@@ -21,6 +22,7 @@ Memes give a really accurate idea and this one cleared up real good.
 
 
 But being a linux user be like:
+
 ![](../../../assets/linuxcar.jpg)
 
 So I downloaded and started using Ubuntu as dual boot. Later I got serious about it and deleted Windows 10. It felt like a big leap - the GUI and workflow was a drastic change. Speed of operation plummeted. Quite many bugs that had to be troubleshot for regular use. A simple amount of customization (here at first, they were GUI like GNOME tweaks - themes, Icons, top bar, cursor/pointer) meant changes. Changes meant wanted and/or unwanted ones. It felt good to know I had absolute control But I wasn't exercising it. So I tried different operating systems on my raspberry pi 4 .. like Debian, Kubuntu, Kali, Xubuntu, Lubuntu, Manjaro and I found out some stuff.
@@ -44,6 +46,7 @@ The Linux distro I finally landed on was Arch - since it had all the things I ne
 ![](../../../assets/archallmightyandpowerful.jpg){:height="300px" width="300px"}
 
 yep, that *feeling*
+
 ![](../../../assets/archbtw.jpg){:height="500px" width="350px"}
 
 There's even a [twitter account](https://mobile.twitter.com/archlinuxmemes)!
