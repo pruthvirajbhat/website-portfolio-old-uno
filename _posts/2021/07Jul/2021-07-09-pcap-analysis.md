@@ -8,4 +8,6 @@ fdate:
 pdate: 
 ---
 bro I'm not doing packets \
-just cant sit downa nd see many different packets and sift thro stuff and get patterns of protocols and ports of relavence with flags and shit \
+just cant sit downa nd see many different packets and sift thro stuff and get patterns of protocols and ports of relavence with flags and shit
+
+so changes stick in arch too, right?
