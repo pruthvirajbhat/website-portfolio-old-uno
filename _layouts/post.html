@@ -2,22 +2,59 @@
 layout: default
 ---
 
-<head>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-</head>
+<article
+  class="post h-entry"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
+  <head>
+    <title>{{ page.title }}</title>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  </head>
 
-<div class="page-subtitle">
-    {% for tag in page.tags %}
-        {% if page.tags.first == tag %}
-            <b>[</b>
-        {% endif %}
-        <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
-        {% if page.tags.last == tag %}
-            <b>]</b>
-        {% else %}
-            ,
-        {% endif %}
-    {% endfor %}
-</div>
+  {%- include main-menu.html -%}
 
-{{content}}
+  <header class="post-header">
+    <div class="post-back">
+      <a class="black-link" href="{{ site.url | relative_url }}">
+        ← {{ site.moving.back_to }}
+      </a>
+    </div>
+
+    <h1 class="post-title p-name" itemprop="name headline">
+      {{ page.title | escape }}
+    </h1>
+    <p class="post-meta">
+      <time
+        class="dt-published"
+        datetime="{{ page.date | date_to_xmlschema }}"
+        itemprop="datePublished"
+      >
+        {%- assign date_format = "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%} •
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
+        ><span class="p-author h-card" itemprop="name">{{
+          page.author | escape
+        }}</span></span
+      >
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+
+  <div class="PageNavigation">
+    {% if page.next.url %}
+      <a class="prev" href="{{page.next.url}}">&laquo; {{page.next.title}} </a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="next" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
+    {% endif %}
+  </div>
+
+</article>

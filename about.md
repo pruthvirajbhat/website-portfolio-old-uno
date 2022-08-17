@@ -1,25 +1,31 @@
 ---
-layout: default
-title: whoami
-subtitle: pursuing infosec with a daily exploration strategy
+layout: about
 ---
 
-<img class="profile-picture" src="{{site.baseurl}}/{{site.profile-picture}}">
+exploring/working on network analysis, reverse engineering and malware anlysis and exploit development
 
-My name is Pruthvi Raj. I've been working as a Software Engineer since Feb 2021. And I have been simultaneously learning and working on my skills for getting into Cybersecuirty domain.
+### What's New
 
-#### exploring/working on
-network analysis, reverse engineering and malware anlysis and exploit development
-
-#### modus operandi
-<!-- I love speaking different languages. I can speak English, Kannada and Hindi, learnt Sanskrit in School. I can understand Telugu and Tamil (to an extent). 
-I love studying History, Geography, current affairs, DIY hacks and all the small things in life. -->
-
-I like to think about a problem like a puzzle and keep working on it. I love making extensive research and gain more knowledge while working on things everyday. That's when I found out about Cybersecurity, under Lockdown early 2021. The depth of all job roles seen in this domain match with all the things I would love to be working on everyday.
-
-Since then, I have worked on getting those skills checked in.\
-Enter tagline: **pursuing infosec with a daily exploration strategy**
-
-I'll let you know when I find out more about myself.
-### Contact Me
-pruthviraj1398@gmail.com
+| Date           | Event                                                        |
+| -------------- | ------------------------------------------------------------ |
+|   11/10/2021  |   Article on [metamaterials](https://www.sciencedirect.com/science/article/pii/S0168874X21001311) accepted in Finite Elements in Analysis and Design  |
+|   23/08/2021  |   Completed training course `Introduction to using Firedrake on ARCHER2`. ARCHER2 is the UK National Supercomputing Service   |
+| 23/03/2021| Gave talk at the [FEniCS 2021 conference](https://fenics2021.com/talks/gupta.html) `Run-time from 300 years to 300 min: Lessons learned in large-scale modeling in FEniCS` |
+|   15/12/2020  |   Published the [55-line code article](https://arxiv.org/abs/2012.08208) in arXiV.    |
+|   **19/07/2020**  |   **Achieved a personal goal of developing the shortest topology optimization code with FEniCS. So happy about it 🥳😁.**   |
+|   11/05/2020  |   Working topology optimization code in FEniCS achieved in 99 lines. Started development on 08/05/2020    |
+|   24/06/2020  |   Article [on hyperelasticity](https://www.sciencedirect.com/science/article/pii/S0013794420307797) published in Engineering Fracture Mechanics   |
+|   30/05/2020  |   Article [on adaptivity](https://www.sciencedirect.com/science/article/abs/pii/S0167844220301981) published in Theoretical and Applied Fracture Mechanics    |
+|   16/12/2019  |   Gave a presentation on "Developement of Isogeometric elements" at BARC, Mumbai  |
+|   15/11/2019  |   Completed 5 days GIAN course on `Advanced isogeometric analysis`  by Prof. Alessandro Reali |
+|   **03/09/2019**  |   **[Successfully completed GSoC2019](https://summerofcode.withgoogle.com/archive/2019/projects/4659097339691008)** 🥳 |
+|   **07/05/2019**  |   **Got accepted to Google summer of code 2019 🥳**    |
+|   22/03/2019  |   Gave a presentation on "Isogeometric Shape Optimization" at IISC-Bangalore  |
+|   **13/02/2019**  |   **PHD Candidacy 😄** |
+|   25/10/2018  |   Completed 5 days course on `HPC and Deep Learning` at EICT Academy, ECE Department, IIT Roorkee |
+|   11/03/2018| Got third place in "Google - Techstars Startup Weekend" on the idea of centralized system for agriculture management. |
+|   20/01/2018  |   Completed GIAN course on `Topology optimization` at IISC-Bangalore  |
+|   20/12/2017  |   Completed GIAN course on `Isogeometric analysis` at IIT-BHU by Prof. Mukesh Kumar   |
+|   10/12/2017  |   Completed the mandatory course work at IIT Roorkee. |
+|   23/08/2017  |   Joined IIT Roorkee. Finally starting a journey that I had dreamt of for so long.    |
+|   19/05/2017  |   Got accepted to PhD program at IIT Roorkee. |

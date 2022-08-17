@@ -1,17 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-
-{% include head.html %}
-
-<body>
-    <div class="container">
-        {% include navbar.html %}
-        <div class="page-title">
-            {{page.title}}
-        </div>
-        <div class="content">
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+        {%- include head.html -%}
+    <body>
+        <script src="{{ base.url | prepend: site.url }}/assets/js/test.js"></script>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
             {{ content }}
         </div>
-        {% include footer.html %}
-    </div>
-</body>
+    </main>
+        {%- include footer.html -%}
+    </body>
+</html>

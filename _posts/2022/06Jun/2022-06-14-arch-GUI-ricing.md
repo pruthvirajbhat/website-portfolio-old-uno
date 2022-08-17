@@ -13,17 +13,15 @@ I have been a simple windows user. some reasons I wanted to do use linux:
 1. Just a complete understanding of how a computer system works.
 2. having more control of the system. What to install, use and run.
 
-![](../../../assets/oscontrol.jpg)
-
+![](../../../assets/images/oscontrol.jpg)
 Memes give a really accurate idea and this one cleared up real good.
 
 
-![](../../../assets/windowscar.jpg)
+![](../../../assets/images/windowscar.jpg)
 
 
 But being a linux user be like:
-
-![](../../../assets/linuxcar.jpg)
+![](../../../assets/images/linuxcar.jpg)
 
 So I downloaded and started using Ubuntu as dual boot. Later I got serious about it and deleted Windows 10. It felt like a big leap - the GUI and workflow was a drastic change. Speed of operation plummeted. Quite many bugs that had to be troubleshot for regular use. A simple amount of customization (here at first, they were GUI like GNOME tweaks - themes, Icons, top bar, cursor/pointer) meant changes. Changes meant wanted and/or unwanted ones. It felt good to know I had absolute control But I wasn't exercising it. So I tried different operating systems on my raspberry pi 4 .. like Debian, Kubuntu, Kali, Xubuntu, Lubuntu, Manjaro and I found out some stuff.
 
@@ -43,11 +41,10 @@ Reasons:
 More time on youtube named my quest/collection of thoughts properly - Quest **to become super user** - using my system and knowing completely about it, just from my terminal. Which is simple, absolute, efficient and cool.
 
 The Linux distro I finally landed on was Arch - since it had all the things I needed when I first thought to migrate to Linux. And those wierd "I use arch btw" memes. 
-![](../../../assets/archallmightyandpowerful.jpg){:height="300px" width="300px"}
+![](../../../assets/images/archallmightyandpowerful.jpg){:height="300px" width="300px"}
 
 yep, that *feeling*
-
-![](../../../assets/archbtw.jpg){:height="500px" width="350px"}
+![](../../../assets/images/archbtw.jpg){:height="500px" width="350px"}
 
 There's even a [twitter account](https://mobile.twitter.com/archlinuxmemes)!
 
@@ -66,7 +63,7 @@ Need to confess: the ricing part, I was honestly seduced by [r/unixporn](https:/
 
 For GUI, there must be a display server that enables a destop environment. There's X11 (traditional) and wayland (new protocol that wants to be replacement). SInce wayland isn't ready (some minor issues) and **X11** is great on its own, went for xorg. Graphic drivers for intel card and xorg and xorg-init is installed. The X clients include applications and services.
 
-![](../../../assets/GUIrelations.png)
+![](../../../assets/images/GUIrelations.png)
 
 Now moving ahead, great desktop environment like GNOME, KDE, Xfce exist but many unwanted applications and packages come with the master-package. \
 Other options include just the window manager. Now installing this makes the system lean and compact. There are different types like tiling and stacking WMs. Stacking WMs are the common ones where windows can be overlapping and expandable. But tiling was something to try. \ There are many WMs like i3, dwm, bspwm, awesome, qtile and xmonad. **i3-gaps** looked good and simple. The config file looked simple to edit and poke around. \  
@@ -77,7 +74,7 @@ After installation, append *startx* to the .xinitrc file to start i3 with Xorg s
 On login, the i3 WM gives a black screen with small bar with system specs below. The i3 bar can be further edited in the i3 config file to add more system info to display and customise to my liking. Install **nitrogen** using the default i3-terminal-emulator. Open it and download some background images online with wget and store them in a location *~/pictures* that's accessible. Set the desktop background. 
 
 ## Basic System Usage enabling
-**Rofi** was installed to easy launch the applications. **Firefox** as browser for internet acesss.
+**Rofi** was installed to easy launch the applications. **FIrefox** as browser for internet acesss.
 
 Download another terminal application like **alacritty** (cause i always wanted to.. there are some recommended ones like st, urxvt but GPU-accelerated emulator can speed up terminal ps). FIrst things to install after a good terminal? Neofetch, htop.
 
@@ -107,7 +104,7 @@ For all the applications above, creating and editing the config file in respecti
 But I'll stop right here for now. I have a functioning system as of now, which looks simple and cool and that's enough for now. This can end up being addictive.
 
 ## System Specs
-![](../../../assets/nfarch.png)
+![](../../../assets/images/nfarch.png)
 
 ## Conclusions Drawn
 

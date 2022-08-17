@@ -1,10 +1,9 @@
 ---
-layout: default
-title: Projects
-subtitle: list of all projects
+layout: project
 ---
 
-Here's all the amazing stuff I've been doing on and on.
+# Projects
 
-- bro
-- this is so cool!
+I'm working on self-guided and self-motivated projects relevent to the things that help me get what I need. Mostly attracted to free and challenging things online. 
+
+Here's some things I've been working on.

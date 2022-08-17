@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="home">
+
+    <head>
+        <title>{{ site.title }}</title>
+    </head>
+    {%- include main-menu.html -%}
+    <div class="home-title">
+        <p class="home-heading"><span class="hand-hello">👋</span> Pruthvi's Blogsite</p>
+        <p style="color: #ffffff; font-size: 24px;line-height: 1.0;margin-top: -16px">{{ site.description }}</p>
+    </div>
+    <hr style="margin-bottom: 0px;">
+    <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_flex -->
+    <div class="row">
+        <div class="column">
+            <h2 style="font-weight: bold;margin-top: 0px;"><a href="{{ site.url }}/about">about me</a></h2>
+            <p>I’ve been working as a Associate Software Engineer/Application Development Associate since Feb 2021. <br>Meanwhile, I have been simultaneously learning and working on my skills for getting into Cybersecuirty domain.</p>
+        </div>
+        <div class="column">
+            <h2 style="font-weight: bold;margin-top: 0px;"><a href="{{ site.url }}/projects">Passion//ModusOperandi</a></h2>
+            <p>I like to think about a problem like a puzzle and keep working on it. I love making extensive research and gain more knowledge while working on things everyday. That's when I found out about Cybersecurity, under Lockdown early 2021. The depth of all job roles seen in this domain match all the things I would love to be working on everyday.</p>
+        </div>
+    </div>
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+        {% for post in site.posts %}
+        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+        {% if forloop.first %}
+        <h2 id="{{ this_year }}-ref" class="post-year">{{this_year}}</h2>
+        <ul>
+            {% endif %}
+            <li>
+                {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">
+                    {{ post.date | date: date_format }}
+                </span>
+                <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </li>
+            {% if forloop.last %}
+        </ul>
+        {% else %}
+        {% if this_year != next_year %}
+    </ul>
+    <h2 id="{{ next_year }}-ref" class="post-year">{{next_year}}</h2>
+    <ul>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+    {%- endif -%}
+</div>
