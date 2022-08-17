@@ -2,7 +2,7 @@ title: Pruthvi Raj # The title of the blog
 author: Pruthvi Raj # Your name 
 email: pruthviraj1398@gmail.com # your email shown in the footer
 
-url: "https://burningatlas.github.io" # this is your site's root address.
+url: "https://pruthvirajbhat.github.io" # this is your site's root address.
 
 
 
@@ -23,7 +23,7 @@ moving:
   # generate social links in about page.
   social_links:
     # twitter: abhiguptaio
-    github:  burningatlas
+    github:  pruthvirajbhat
     # scholar: 
     # researchgate: 
     # rss: RSS
