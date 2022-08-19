@@ -1,3 +1,18 @@
+.primary_container {
+    width: calc(#{$content-width} - (#{4*$spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align_right {
+    display: flex;
+    display: -webkit-flexbox;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
 /**
  * Reset some basic elements
  */
@@ -26,8 +41,8 @@ figure {
   */
 body {
     font: $base-font-weight #{$small-font-size}/#{$small-line-height} $base-font-family;
-    color: $text-color;
-    background-color: $background-color;
+    color: var(--text-color);
+    background-color: var(--background-color);
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern"1;
     -moz-font-feature-settings: "kern"1;
@@ -35,9 +50,11 @@ body {
     font-feature-settings: "kern"1;
     font-kerning: normal;
     display: flex;
+    -webkit-font-smoothing: antialiased;
     min-height: 100vh;
     flex-direction: column;
     padding: 0 0%;
+    overflow: overlay;
 
     @media screen and (min-width: $on-medium) {
         padding: 0 0%;
@@ -82,9 +99,10 @@ hr {
     border: 0;
     height: 2px;
     /* Set the hr color */
-    color: lighten($grey-color-light, 3%);
+    // color: lighten($grey-color-light, 3%);
+    background-color: var(--text-color);
+
     /* old IE */
-    background-color: lighten($grey-color-light, 3%);
     /* Modern Browsers */
     // background: -webkit-linear-gradient(
     //   left,
@@ -107,7 +125,7 @@ img {
     margin-bottom: 15px;
     margin-top: 15px;
     padding: 2px 2px;
-    border-radius: 0.3em;
+    border-radius: 6px;
     background-color: lighten($grey-color-light, 3%);
     max-width: 100%;
     vertical-align: middle;
@@ -121,7 +139,7 @@ img {
   */
 figure>img {
     display: block;
-    align-self:center;
+    align-self: center;
 }
 
 figcaption {
@@ -153,8 +171,12 @@ li {
   * Headings
   */
 h1 {
-    margin-top: 2rem;
-    font-weight: 900;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
 }
 
 h2,
@@ -170,7 +192,7 @@ h6 {
   * Links
   */
 a {
-    color: $brand-color;
+    color: var(--brand-color);
     text-decoration: none;
 
     &:hover {
@@ -182,15 +204,15 @@ a {
   * Blockquotes
   */
 blockquote {
-    color: $text-color;
-    background-color: lighten($background-color, 9%);
+    color: var(--text-color);
+    background-color: var(--background-color-lighten-9);
 
     border-radius: 0.3em;
 
-    border-left: 4px solid $brand-color;
+    border-left: 4px solid var(--brand-color);
     padding-left: $spacing-unit / 2;
-    @include relative-font-size(1.1);
-    line-height: 30px;
+    @include relative-font-size(1.4);
+    line-height: 34px;
     padding: 24px;
     // letter-spacing: -1px;
 
@@ -203,36 +225,9 @@ blockquote {
     }
 }
 
-cite{
-     text-align: right; 
-     display: block;
-}
-
-/**
-  * Code formatting
-  */
-pre,
-code {
-    @include relative-font-size(0.9);
-    color: $notion-red;
-    border: 1px solid darken($grey-color-light, 3%);
-    border-radius: 3px;
-    background-color: lighten($grey-color-light, 3%);
-}
-
-code {
-    padding: 1px 1px;
-}
-
-pre {
-    padding: 2px 2px;
-    overflow-x: auto;
-
-    >code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
+cite {
+    text-align: right;
+    display: block;
 }
 
 /**
@@ -292,13 +287,13 @@ table {
     margin-bottom: $spacing-unit;
     width: 100%;
     text-align: $table-text-align;
-    color: lighten($text-color, 18%);
+    // color: lighten(var(--text-color), 18%);
     border-collapse: collapse;
-    border: 1px solid $grey-color-light;
+    border: 2px solid var(--text-color);
 
     tr {
         &:nth-child(even) {
-            background-color: lighten($background-color, 6%);
+            background-color: var(--background-color-lighten-9);
         }
     }
 
@@ -308,13 +303,13 @@ table {
     }
 
     th {
-        background-color: lighten($background-color, 3%);
-        border: 1px solid darken($grey-color-light, 4%);
-        border-bottom-color: darken($grey-color-light, 12%);
+        background-color: var(--background-color-lighten-9);
+        border: 2px solid var(--text-color);
+        border-bottom-color: var(--text-color);
     }
 
     td {
-        border: 1px solid $grey-color-light;
+        border: 2px solid var(--text-color);
     }
 }
 
@@ -345,7 +340,7 @@ nav {
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .row {
@@ -357,21 +352,58 @@ nav {
     padding: 30px;
 }
 
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .row {
+.flexbox-col {
     flex-direction: column;
-  }
+    flex: 50%;
+    padding: 30px;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: $background-color;
-  background: $text-color;
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .flexbox {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .flexbox-col {
+        display: flex;
+        text-align: center;
+    }
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: var(--background-color);
+    background: var(--text-color);
 }
 
 ::selection {
-  color: $background-color;
-  background: $text-color;
+    color: var(--background-color);
+    background: var(--text-color);
 }
 
 
+::-webkit-scrollbar {
+    height: 0px;
+    /* height of horizontal scrollbar */
+    width: 10px;
+    /* width of vertical scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: var(--text-color);
+
+    &:hover {
+        background: var(--background-color-lighten-9);
+    }
+}

@@ -1,4 +1,4 @@
-title: Pruthvi Raj # The title of the blog
+title: ☕ Pruthvi's Bloggo # The title of the blog
 author: Pruthvi Raj # Your name 
 email: pruthviraj1398@gmail.com # your email shown in the footer
 
@@ -7,7 +7,7 @@ url: "https://pruthvirajbhat.github.io" # this is your site's root address.
 
 
 description: > # this means to ignore newlines until "show_excerpts:" 
-  activities, accomplishments, challenges, courses, exploration
+  activities, accomplishments, challenges, courses, exploration 
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -22,7 +22,7 @@ moving:
 
   # generate social links in about page.
   social_links:
-    # twitter: abhiguptaio
+    # twitter: 
     github:  pruthvirajbhat
     # scholar: 
     # researchgate: 
@@ -49,10 +49,11 @@ moving:
     #   instance: 
 
 # Build settings
-remote_theme: iitrabhi/moving
+# remote_theme: iitrabhi/moving
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 
 
@@ -63,10 +64,23 @@ plugins:
 footer-text:
 
 # JavaScript
-head_scripts:
-  - /assets/js/test.js
+# head_scripts:
+#   - /assets/js/two.min.js
 
 # https://jekyllrb.com/docs/collections/
 collections:
   projects:
     output: true
+#  newsletters:
+#    output: true
+
+# Compress CSS files
+sass:
+    style: compressed
+
+highlighter: rouge
+# gist:
+#   noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
