@@ -9,3 +9,6 @@ pdate:
 ---
 bro I'm not doing packets \
 just cant sit down and see many different packets and sift thro stuff and get patterns of protocols and ports of relavence with flags and shit
+
+<!--%%its been 26-08-2022 and still not finishing this.. %%-->
+OK
