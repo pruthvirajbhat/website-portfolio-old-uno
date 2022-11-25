@@ -51,14 +51,5 @@ Final Task 9 - is a challenge where questions posed make use of all the concepts
 #### [Linux Modules](https://tryhackme.com/room/linuxmodules)
 Commands covered are disk usage (du), grep, String Operation Commands like tr, awk, sed, xargs, curl, wget, xxd; other commands like tar, gpg, id/pwd/uname, ps/kill, file/stat, netstat, less, more, diff, uniq, export, reset, system/service are briefed. 
 
+#### Inference
 All the modules seem easy and workable, providing better options and functionality dealing with big data to make user's life easier while parsing. 
-
-```(article yet to be finalised;under constant updation)```
-
-some more completed THM rooms include:
-
-1. [linux agency ctf](https://tryhackme.com/room/linuxagency) 4
-2. [linux priv esc](https://tryhackme.com/room/linuxprivesc) 21
-3. [linux server forensics](https://tryhackme.com/room/linuxserverforensics) 11
-4. [linux backdoors](https://tryhackme.com/room/linuxbackdoors) 6
-5. [shared libraries, function hooking](https://tryhackme.com/room/linuxfunctionhooking) 7
