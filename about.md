@@ -1,8 +1,7 @@
 ---
 layout: about
 ---
-Bachelors Engineering Graduate Batch of 2020 in electronics and communication. Picked up interest in Information Security observing the depth of knowledge to study, problems to solve and excellent scope with longetivity of field (and high pay)
-
+Capable in 
 Skilled in Vulnerability Analysis, 
 
 ### What's New with me
