@@ -1,8 +1,8 @@
 ---
 layout: post
-title: packet capture and analysis
-subtitle: learning more about packet contents
-tags: [Network]
+title: DarkSide Ransomeware
+subtitle: report write-up on darkside ransomware
+tags: [write-up]
 odate: 19-12-2022
 pdate: 29-12-2022
 ---
