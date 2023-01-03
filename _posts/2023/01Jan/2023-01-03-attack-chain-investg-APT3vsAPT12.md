@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Create an Investigation of attack chain for APT32 & APT28 
-subtitle: Investigation report on Attack chain of APT32 & APT28, plus comparison
+title: Create an Investigation of attack chain for APT3 & APT12
+subtitle: Investigation report on Attack chain of APT3 & APT12, plus comparison
 tags: [write-up]
-odate: 30-12-2022
+odate: 03-01-2023
 pdate: 03-01-2023
 ---
 The Matrix is built for security providers' understanding of the different unintelligble aspects of a Threat - Capability, Opportunity and Intentions
@@ -31,111 +31,111 @@ Techniques (how the attacker does it) are listed in detail and common_knowledge/
 
 Above the first row in each Coloumn has the tactics listed. But since this ATT&CK framework is v12.1 it's highly detailed if viewed completely. So breaking down of each matrix with respective coloums sequentially is done for each APT.
 
-Then both APT32 and APT28 TTPs are compared, with the common techniques and procedures of each APT are given a higher priority for the enterprise security teams to focus on.
+Then both APT3 and APT12 TTPs are compared, with the common techniques and procedures of each APT are given a higher priority for the enterprise security teams to focus on.
 
 ---
-## APT32
+## APT3
 
-![](../../../assets/images/apt32vapt28/APT28_G0007.svg)
+![](../../../assets/images/apt3vapt12/apt3.svg)
 Breaking down each of the parts of the matrix if APT32 we have the first 4:
-Reconnaissance, Resource Development, Initial Access, Execution
+Reconnaissance, Resource Development, Initial Access and execution
 
-![](../../../assets/images/apt32vapt28/apt32_1.png)
+![](../../../assets/images/apt3vapt12/apt3_1.png)
 
 then the next 3 highly employed tactics and techniques: 
-persistence, privilege escalation and defensive evasion
+persistence, privilege escalation, defensive evasion and credential access
 
-![](../../../assets/images/apt32vapt28/apt32_4a.png)
+![](../../../assets/images/apt3vapt12/apt3_4a.png)
 
-![](../../../assets/images/apt32vapt28/apt32_4b.png)
+![](../../../assets/images/apt3vapt12/apt3_4b.png)
 
-![](../../../assets/images/apt32vapt28/apt32_4c.png)
+![](../../../assets/images/apt3vapt12/apt3_4c.png)
 
 Focusing on the remaining Defensive Evasion techniques
 
-![](../../../assets/images/apt32vapt28/apt32_4d.png)
+![](../../../assets/images/apt3vapt12/apt3_4d.png)
 
 
 the other tactics and techniques for the APT32 are
-Credential Access, Discovery, Lateral Movement, Collection, Command and Control
+Discovery, Lateral Movement, Collection, Command and Control
 
-![](../../../assets/images/apt32vapt28/apt32_2.png)
+![](../../../assets/images/apt3vapt12/apt3_2.png)
 
 finally there's exfiltration and Impact
 
-![](../../../assets/images/apt32vapt28/apt32_3.png)
+![](../../../assets/images/apt3vapt12/apt3_3.png)
 
 ---
-## APT28
+## APT12
 
-![](../../../assets/images/apt32vapt28/APT28_G0007.svg)
+![](../../../assets/images/apt3vapt12/apt12.svg)
 
 Breaking down each of the parts of the matrix if APT28 we have the first 4:
 Reconnaissance, Resource Development, Initial Access, Execution
 
-![](../../../assets/images/apt32vapt28/apt28_1.png)
+![](../../../assets/images/apt3vapt12/apt12_1.png)
 
 then the next 3 highly employed tactics and techniques: 
-persistence, privilege escalation and defensive evasion
+persistence, privilege escalation, defensive evasion and credential access
 
-![](../../../assets/images/apt32vapt28/apt28_4a.png)
+![](../../../assets/images/apt3vapt12/apt12_4a.png)
 
-![](../../../assets/images/apt32vapt28/apt28_4b.png)
+![](../../../assets/images/apt3vapt12/apt12_4b.png)
 
-![](../../../assets/images/apt32vapt28/apt28_4c.png)
+![](../../../assets/images/apt3vapt12/apt12_4c.png)
 
-Focusing on the remaining Defensive Evasion techniques
+Focusing on the remaining Defensive Evasion techniques (APT12 seems to be very selective in their techniques.)
 
-![](../../../assets/images/apt32vapt28/apt28_4d.png)
+![](../../../assets/images/apt3vapt12/apt12_4d.png)
 
 
 the other tactics and techniques for the APT28 are
-Credential Access, Discovery, Lateral Movement, Collection, Command and Control
+Discovery, Lateral Movement, Collection, Command and Control
 
-![](../../../assets/images/apt32vapt28/apt28_2.png)
+![](../../../assets/images/apt3vapt12/apt12_2.png)
 
 finally there's exfiltration and Impact
 
-![](../../../assets/images/apt32vapt28/apt28_3.png)
+![](../../../assets/images/apt3vapt12/apt12_3.png)
 
 ---
-## Comparing APT32 vs APT28 TTPs
-TTPs of APT32 are colored in red.
-TTPs of APT28 are colored in yellow.
-TTPs of both APT32 and APT28 are colored in green.
+## Comparing APT3 vs APT12 TTPs
+TTPs of APT3 are colored in red.
+TTPs of APT12 are colored in yellow.
+TTPs of both APT3 and APT12 are colored in green.
 
-![](../../../assets/images/apt32vapt28/layer_by_operation.svg)
+![](../../../assets/images/apt3vapt12/layer_by_operation.svg)
 
 Zoomed in parts of ATT&CK matrix with both APT32 and APT28
 we have the first 4:
 Reconnaissance, Resource Development, Initial Access, Execution
 
-![](../../../assets/images/apt32vapt28/comp1.png)
+![](../../../assets/images/apt3vapt12/comp_1.png)
 
 then the next 3 highly employed tactics and techniques: 
 persistence, privilege escalation and defensive evasion
+![](../../../assets/images/apt3vapt12/comp_4a.png)
 
-![](../../../assets/images/apt32vapt28/comp4a.png)
+![](../../../assets/images/apt3vapt12/comp_4b.png)
 
-![](../../../assets/images/apt32vapt28/comp4b.png)
-
-![](../../../assets/images/apt32vapt28/comp4c.png)
+![](../../../assets/images/apt3vapt12/comp_4c.png)
 
 Focusing on the remaining Defensive Evasion techniques
 
-![](../../../assets/images/apt32vapt28/comp4d.png)
+![](../../../assets/images/apt3vapt12/comp_4d.png)
 
-the other tactics and techniques for the APT32 vs APT28 are
+the other tactics and techniques for the APT3 vs APT12 are
 Credential Access, Discovery, Lateral Movement, Collection, Command and Control
 
-![](../../../assets/images/apt32vapt28/comp2.png)
+![](../../../assets/images/apt3vapt12/comp_2.png)
 
 finally there's exfiltration and Impact
 
-![](../../../assets/images/apt32vapt28/comp3.png)
+![](../../../assets/images/apt3vapt12/comp_3.png)
+
 
 ## Conclusion
-Mapping all TTPs of APT32 and APT28 are done hence creating an Investigation report of their attack chains.
+Mapping all TTPs of APT3 and APT12 are done hence creating an Investigation report of their attack chains.
 
 Each individual TTPs mapped for respective APTs can be a source of reference for red teams for red teaming and adversary emulation activities.
 
