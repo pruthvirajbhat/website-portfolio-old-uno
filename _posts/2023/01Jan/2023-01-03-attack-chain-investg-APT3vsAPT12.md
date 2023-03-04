@@ -2,7 +2,7 @@
 layout: post
 title: Create an Investigation of attack chain for APT3 & APT12
 subtitle: Investigation report on Attack chain of APT3 & APT12, plus comparison
-tags: [write-up]
+tags: [tracelay-writeup]
 odate: 03-01-2023
 pdate: 03-01-2023
 ---

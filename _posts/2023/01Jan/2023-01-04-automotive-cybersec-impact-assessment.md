@@ -2,7 +2,7 @@
 layout: post
 title: Impact Assessment on Automotive sector due to cyber incidents
 subtitle: brief write-up
-tags: [write-up]
+tags: [tracelay-writeup]
 odate: 03-01-2023
 pdate: 04-01-2023
 ---

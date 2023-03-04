@@ -2,7 +2,7 @@
 layout: post
 title: DarkSide Ransomeware
 subtitle: report write-up on darkside ransomware
-tags: [write-up]
+tags: [tracelay-writeup]
 odate: 19-12-2022
 pdate: 29-12-2022
 ---

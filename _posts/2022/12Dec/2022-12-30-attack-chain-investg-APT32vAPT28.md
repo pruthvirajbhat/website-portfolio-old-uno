@@ -2,7 +2,7 @@
 layout: post
 title: Create an Investigation of attack chain for APT32 & APT28 
 subtitle: Investigation report on Attack chain of APT32 & APT28, plus comparison
-tags: [write-up]
+tags: [tracelay-writeup]
 odate: 30-12-2022
 pdate: 03-01-2023
 ---

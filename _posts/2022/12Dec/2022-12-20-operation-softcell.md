@@ -2,7 +2,7 @@
 layout: post
 title: Operation Softcell
 subtitle: collective attack on telcoms
-tags: [write-up]
+tags: [tracelay-writeup]
 odate: 20-12-2022
 pdate: 31-12-2022
 ---

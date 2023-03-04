@@ -2,7 +2,7 @@
 layout: post
 title: Cybereason EDR
 subtitle: brief write-up
-tags: [tool-writeup]
+tags: [tracelay-tool-writeup]
 odate: 09-02-2023
 pdate: 27-02-2023
 ---

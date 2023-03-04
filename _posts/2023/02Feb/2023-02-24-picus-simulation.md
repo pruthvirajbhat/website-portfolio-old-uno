@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Picus Simulation
+title: Simulating breach and attack scenarios on PC endpoint using Picus Security's Control Validation Platform solution
 subtitle: brief write-up
-tags: [tool-writeup]
+tags: [tracelay-tool-writeup]
 odate: 24-02-2023
 pdate: 27-02-2023
 ---
-# Picus Security
+# Simulating breach and attack scenarios on PC endpoint using Picus Security's Control Validation Platform solution
 > Problem Statement: 
 > 1. Simulate any 2 attacks scenario from the Template
-> 2. Add 3 Threat Name groups details from Threat library of complete attack scenario what you understood in the detailed report
+> 2. Add 3 Threat Name groups details from Threat library of complete attack scenario
 > 3. Do simulation with windows agent or email phishing attack simulation
-
 
 In 2013, Picus Security pioneered Breach and Attack Simulation (BAS) technology and has helped companies improve their cyber resilience since then.
 
