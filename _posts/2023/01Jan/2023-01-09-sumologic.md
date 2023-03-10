@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sumologic
+title: Sumologic - ngSIEM
 subtitle: brief tool write-up
 tags: [tracelay-tool-writeup]
 odate: 09-01-2023

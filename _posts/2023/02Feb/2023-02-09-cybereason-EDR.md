@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cybereason EDR
+title: Cybereason - EDR
 subtitle: brief write-up
 tags: [tracelay-tool-writeup]
 odate: 09-02-2023
