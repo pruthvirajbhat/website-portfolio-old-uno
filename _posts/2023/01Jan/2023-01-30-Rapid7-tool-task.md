@@ -6,8 +6,8 @@ tags: [tracelay-tool-writeup]
 odate: 30-01-2023
 pdate: 10-03-2023
 ---
-> Problem Statement
-> Create a detailed report on vulnerabilities scanned on any 2 web application include vulnerability screenshot and your understandings about the tools.
+> Problem Statement:
+> 1. Create a detailed report on vulnerabilities scanned on any 2 web application include vulnerability screenshot and your understandings about the tools.
 
 # Rapid7
 The company Rapid7 has the insight platform for security solutions. InsightConnect (orchestrationa dn automation), services (expert managed and consulting services), InsightVM (vulnerability management), ThreatCommand (Threat Intelligence), InsightIDR (XDR, SIEM), InsightCloudSec (Cloud Security) and InsightAppSec (Application security dynamic application testing platform) 

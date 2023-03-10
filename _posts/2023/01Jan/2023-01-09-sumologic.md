@@ -8,8 +8,8 @@ pdate: 10-03-2023
 ---
 # Sumologic Tool 
 > Problem Statement:
-> First task it to deploy the agent collector deployment is super easy in system once you follow steps.
-> 2nd task create a detailed report as per your understanding with screenshot with 3 page report.
+> 1. First task it to deploy the agent collector deployment is super easy in system once you follow steps.
+> 2. Create a detailed report as per your understanding with screenshot with 3 page report.
 
 ### About the company
 Sumo Logic, Inc. is a cloud-based machine data analytics company focusing on security, operations and Business Intelligence usecases. It provides log management and analytics services that use machine-generated big data.

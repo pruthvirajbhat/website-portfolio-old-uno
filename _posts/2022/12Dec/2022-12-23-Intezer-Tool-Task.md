@@ -7,10 +7,10 @@ odate: 23-12-2022
 pdate: 10-03-2023
 ---
 # Intezer tool
-> Problem Statement
-> Identify - Top 5 Publicly Trending Threats in scan option
-> Add any 10 IOC Ip Adress of any threats
-> Add details in report about 2 Sample Threats in Endpoint option
+> Problem Statement:
+> 1. Identify - Top 5 Publicly Trending Threats in scan option
+> 2. Add any 10 IOC Ip Adress of any threats
+> 3. Add details in report about 2 Sample Threats in Endpoint option
 
 ## Top 5 Publicly Trending Threats 
 1. REMCOS

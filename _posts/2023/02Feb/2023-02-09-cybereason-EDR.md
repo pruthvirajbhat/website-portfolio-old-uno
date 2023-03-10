@@ -8,8 +8,8 @@ pdate: 27-02-2023
 ---
 # Cybereason EDR
 > Problem Statement:
-> Create a detailed report on Lateral movment , Command & Control, & Detected ransomare program 
-> In Malop box, write a detailed report on alert detected in Robert-excasst system
+> 1. Create a detailed report on Lateral movment , Command & Control, & Detected ransomare program 
+> 2. In Malop box, write a detailed report on alert detected in Robert-excasst system
 
 EDR is an array of modern, integrated endpoint security tools that detect, contain, investigate, and eliminate invasive cybersecurity threats high in the cyber kill chain. With Cybereason EDR, defenders can stop chasing alerts and instead end malicious operations before they take hold.
 
