@@ -60,6 +60,6 @@ Hive malware uses a variety of techniques to infect and control victim computers
 5.  Propagation: Hive malware can be designed to propagate itself to other systems on the same network, potentially creating a large-scale botnet that can be used for malicious purposes.
 6.  Encryption: Hive malware may use encryption to hide its communication with the C2 server and to protect its own code from analysis. This can make it more difficult for security researchers to analyze the malware and develop countermeasures.
 
-![](../../../assets/images/hive_ranssomware/hive_TTPs.png)
+![](../../../assets/images/hive_ransomware/hive_TTPs.png)
 
 To protect against Hive malware and other types of malware, it's important to use up-to-date antivirus and anti-malware software, keep software and operating systems patched, and practice good security habits like avoiding suspicious links and downloads.
