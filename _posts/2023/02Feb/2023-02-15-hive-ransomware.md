@@ -1,12 +1,12 @@
 ---
 layout: post
-title: SOAR
-subtitle: Brief write-up on SOAR
+title: Hive RaaS
+subtitle: Brief write-up on Hive RaaS
 tags: [tracelay-writeup]
 odate: 15-01-2023
 pdate: 22-03-2023
 ---
-# Hive RaaS
+
 With a statement from FBI officials on August 25, 2021 it was said that a newly formed ransomware group **Hive ransomware** group is attacking the health system in the USA. The Hive ransomware gang crashed the IT systems at Memorial Health System, disrupting healthcare and putting the lives of several patients at risk. First observed in June 2021, Hive Ransomware is a RaaS (Ransomware as a Service) group leveraging double-extortion that started operations. The group also exfiltrates sensitive data before encrypting it for ransom. They operate with an affiliate system and provide an admin panel for affiliates to manage attacks.
 
 They are believed to be a Russian-based organization. It is reported that around May 2022, some of its affiliates migrated to Hive as the Conti group took down its attack infrastructure. The belief stems from the fact that Conti and Hive have leaked the same victims on both their leak sites simultaneously on multiple occasions, such as the attack on Costa Rican government infrastructures. However, Hive refuted the connection with Conti in their TOR leak site in numerous instances.
