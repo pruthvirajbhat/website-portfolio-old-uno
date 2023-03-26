@@ -2,7 +2,7 @@
 layout: post
 title: the vim conundrum
 subtitle: learning how2use vi 
-tags: [vim]
+tags: [misc]
 odate: 18-05-2022
 fdate: 18-05-2022
 pdate: 18-05-2022
