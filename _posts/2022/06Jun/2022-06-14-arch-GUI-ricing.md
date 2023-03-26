@@ -2,7 +2,7 @@
 layout: post
 title: Arch Linux Installation, GUI and ricing
 subtitle: taking complete system control
-tags: [playingwithOS]
+tags: [misc]
 odate: 04-07-2022
 fdate: 09-07-2022
 pdate: 09-07-2022
