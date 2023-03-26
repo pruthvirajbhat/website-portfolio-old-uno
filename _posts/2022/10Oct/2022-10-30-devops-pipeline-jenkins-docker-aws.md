@@ -2,7 +2,7 @@
 layout: post
 title: Building CI/CD pipeline using Jenkins, AWS, Docker 
 subtitle: getting started
-tags: [devops, AWS, EC2, Jenkins, Docker, GitHub]
+tags: [EC2, Jenkins, Docker]
 date: 30-10-2022 
 ---
 Aim: Building CI/CD Pipeline for a Django Web App in a Docker Container on AWS EC2 Instance using Jenkins automation server
