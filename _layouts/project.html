@@ -40,8 +40,8 @@ layout: default
         <p style="text-align: right; opacity: 0.7"><small> - {{ project.year | escape }}
           </small></p>
         <div class="card-description">
-          {% for lang in project.langs %}
-          <code>{{ lang | escape }}</code>
+          {% for tags in project.tags %}
+          <code>{{ tags | escape }}</code>
           {% endfor %}
           <hr>
           <p>{{ project.description | escape }}
