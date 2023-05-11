@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Picus Security - Simulating breach and attack scenarios
+title: 🔧Picus Security - Simulating breach and attack scenarios
 subtitle: brief write-up
 tags: [tracelay-tool-writeup]
 odate: 24-02-2023

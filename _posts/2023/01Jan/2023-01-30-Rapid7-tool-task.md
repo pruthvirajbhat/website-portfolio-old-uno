@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rapid7 - Web app vuln assessment
+title: 🔧Rapid7 - Web app vuln assessment
 subtitle: brief tool write-up
 tags: [tracelay-tool-writeup]
 odate: 30-01-2023

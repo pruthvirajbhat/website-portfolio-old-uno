@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Intezer - Malware Analysis
+title: 🔧Intezer - Malware Analysis
 subtitle: brief tool write-up
 tags: [tracelay-tool-writeup]
 odate: 23-12-2022
