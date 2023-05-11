@@ -1,6 +1,6 @@
 ---
 layout: post
-title: few THM linux challenges
+title: THM linux modules, strength training and regex
 subtitle: tryhackme, other exercises
 tags: [linux, THM]
 odate: 27-04-2022
@@ -17,7 +17,7 @@ After working on [bandit overthewire](/2021-05-17-bandit-challenge/), the sky wa
 The book goes into great detail for learning simple commands for the first time. But they can also be learnt as and when practical work, CTFs are done. So after finishing a round of reading, got started with working on tryhackme rooms: 
 
 1. [regex](#regex) 
-2. [linux strength training/reinforcing](#linux-strength-training) 
+2. [linux strength training](#linux-strength-training) 
 3. [linux modules](#linux-modules) 
 
 ### [regex](https://tryhackme.com/room/catregex)
