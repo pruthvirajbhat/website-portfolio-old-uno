@@ -61,3 +61,5 @@ A unique userID string is created, icons of files changed and an intuitive wallp
 - Keep systems patched
 - Regular Backup
 - Enable a Next Generation AntiVirus with Anti-malware or anti-ransomware features that offer latest solutions.
+
+Awaiting rewrite
