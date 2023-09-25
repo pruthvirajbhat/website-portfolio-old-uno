@@ -4,4 +4,4 @@ layout: project
 
 # Projects
 
-Here's some things I've been working on.
+Here's some things I've been working on. Most of the projects are new.
